@@ -1,0 +1,86 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #150728;
+    font-family: "Brush Script MT";
+}
+
+header {
+    display: flex;
+    justify-content: center;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+    height: 2.5rem;
+    display: flex;
+    justify-content: center;
+}
+
+main {
+    display: flex
+}
+
+section {
+
+    justify-content: center;
+    width: 50%;
+}
+
+p {
+    font-size: 4vh;
+    color: #5becd9;
+}
+
+header img {
+    height: 5vh;
+    margin: 1rem;
+}
+
+div {
+    margin: 5rem;
+}
+
+.mannetje {
+    height: 75vh;
+    align-items: center;
+    justify-content: center;
+}
+
+.LeftSection {
+    align-content: center;
+    margin: 4rem;
+}
+
+.gok {
+    font-size: 4vh;
+    text-align: center;
+    width: 6vw;
+    padding: 5px;
+    border: none;
+    border: solid 2px black;
+    outline: none;
+    text-transform: capitalize;
+}
+
+#woord {
+    text-align: left;
+    font-size: 4vh;
+}
+
+#gok {
+    text-align: left;
+    font-size: 4vh;
+    text-transform: capitalize;
+}
+
+#fouten {
+    text-align: left;
+    font-size: 4vh;
+}
