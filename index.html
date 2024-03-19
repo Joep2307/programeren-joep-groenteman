@@ -2,42 +2,53 @@
 <html lang="en">
 
 <head>
-    <link rel="stylesheet" href="styles.css">
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>index</title>
+  <link rel="stylesheet" href="styles.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Galgje</title>
 </head>
 
 <body>
 
-    <header>
-        <img src="images/logo_gagje.png" alt="Galgje logo">
-    </header>
-    <main>
+  <header>
+    <h1>Galgje</h1>
+  </header>
+  <article>
+    <section class="section-left">
+      <div>
+        <p>Tip: alle woorden hebben met coderen te maken</p>
+      </div>
+      <div>
+        <pre>Fouten gokken: </pre><span id='fouten'>
+           0 
+        </span>
+        <pre> van de </pre><span id='maxfout'></span>
+      </div>
 
-        <section class="LeftSection">
-            <div>
-                <p>Woord:</p>
-            </div>
-            <div>
-                <p>Voer hier je gok in:</p>
-               <input type="text" id="gok" maxlength="1">
-               <button class="gok">RAAD</button>
-            </div>
-            <div>
-                <p>Foute gokken:</p>
-            </div>
-        </section>
+      <div class="text-center">
+        <h2>Raad het woord:</h2>
+      </div>
+      <div>
+        <p id="wordSpotlight">Het geraden woord komt hier:</p>
+      </div>
 
-        <section>
-            <img class="mannetje" src="images/galgje-tekeningen/mannetje-00.png" alt="leegbord">
-        </section>
+      <div>
+        <button onClick="reset()">Opnieuw</button>
+      </div>
+    </section>
 
-    </main>
-    <footer>
-        <p>©Joep Groenteman 2024</p>
-    </footer>
-    <script src="script.js"></script>
+    <section class="section-right">
+      <img id="mannetje" src="./images/galgje-tekeningen/mannetje-0.png" alt="">
+    </section>
+  </article>
+
+
+  <div id="keyboard"></div>
+  <footer>
+    <p>©Joep Groenteman 2024</p>
+  </footer>
+
+  <script src="script.js"></script>
 </body>
 
 </html>

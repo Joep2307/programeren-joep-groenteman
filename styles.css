@@ -6,12 +6,13 @@
 
 body {
     background-color: #150728;
-    font-family: "Brush Script MT";
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
 header {
     display: flex;
     justify-content: center;
+    margin-bottom: 3vh;
 }
 
 footer {
@@ -23,18 +24,21 @@ footer {
     justify-content: center;
 }
 
-main {
-    display: flex
+button {
+    width: 5rem;
+    height: 2rem;
 }
 
-section {
-
-    justify-content: center;
-    width: 50%;
+h1 {
+    font-size: 5vh; 
+    color: #5becd9;
 }
 
-p {
-    font-size: 4vh;
+p,
+pre,
+h2, 
+span {
+    font-size: 3vh;
     color: #5becd9;
 }
 
@@ -44,43 +48,32 @@ header img {
 }
 
 div {
-    margin: 5rem;
+    display: flex;
+    margin-top: 3rem;
+    margin-left: 2rem;
+    color: #5becd9;
+    justify-content: center;
 }
 
-.mannetje {
-    height: 75vh;
+article {
+    display: flex;
+}
+
+section {
+    width: 50%;
     align-items: center;
     justify-content: center;
 }
 
-.LeftSection {
-    align-content: center;
-    margin: 4rem;
+.keyboard-btn {
+    font-size: x-large;
+    width: 2.5rem;
+    height: 2.5rem;
 }
 
-.gok {
-    font-size: 4vh;
-    text-align: center;
-    width: 6vw;
-    padding: 5px;
-    border: none;
-    border: solid 2px black;
-    outline: none;
-    text-transform: capitalize;
-}
-
-#woord {
-    text-align: left;
-    font-size: 4vh;
-}
-
-#gok {
-    text-align: left;
-    font-size: 4vh;
-    text-transform: capitalize;
-}
-
-#fouten {
-    text-align: left;
-    font-size: 4vh;
+img {
+    height: 70vh;
+    align-items: center;
+    justify-content: center;
+    padding-left: 5rem;
 }
